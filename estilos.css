@@ -1,0 +1,82 @@
+body{
+    background-color: rgba(137, 43, 226, 0.795);
+    background-image: url(img/fondo.jpg);
+    mask-repeat: no-repeat;
+    font-family: "Bungee", sans-serif;
+    
+}
+h1{
+    text-align: center;
+    color: rgb(193, 154, 230);
+    background-color: rgb(52, 13, 88);
+    font-family: "Bungee", sans-serif;
+    box-shadow: 10px 10px 5px 0px rgba(240, 180, 237, 0.75);
+   background: rgb(52,13,88);
+    background: radial-gradient(circle farthest-corner at center center, rgb(52,13,88) 30%, rgba(193,87,202,0.68) 50%);
+    background: -webkit-radial-gradient(circle farthest-corner at center center, rgb(52,13,88) 30%, rgba(193,87,202,0.68) 50%);
+    background: -moz-radial-gradient(circle farthest-corner at center center, rgb(52,13,88) 30%, rgba(193,87,202,0.68) 50%);
+}
+
+
+p{
+    color: beige;
+    font-size: larger;
+    font-family: "Acme", sans-serif;
+    text-align: center;
+    background-color: rgba(193, 87, 202, 0.671);
+}
+
+ol{
+    color: bisque;
+    background-color: rgba(154, 95, 209, 0.678);
+    list-style-type: none;
+    text-align: center;
+    font-size: larger;
+    
+} 
+
+ol ul li{
+    list-style-type: none;
+    padding: 2px;
+}
+
+img{
+    border: 10px double white;
+}
+
+a{
+    text-decoration: none;
+    background-color: rgb(172, 104, 235);
+    border: 3px solid rgb(71, 26, 114);
+    color: rgb(205, 172, 236);
+    padding: 2px;
+}
+
+a:hover{
+    font-size: x-large;
+    background-color: rgb(241, 192, 30);
+    border: 3px solid rgb(255, 208, 78);
+    color: rgb(241, 211, 126);
+}
+
+ol strong{
+    text-decoration: underline 10px rgb(71, 26, 114);
+    font-size: xx-large;
+}
+
+h2 strong{
+    text-align: left;
+    background-color: transparent;
+    color: white;
+    font-size: 2px;
+    background-color: blueviolet;
+}
+
+h2 strong:hover{
+    font-size: 50px;
+    background-color: rgba(178, 120, 231, 0.719);
+    border: 6px dashed rgb(61, 18, 102);
+}
+
+
+
